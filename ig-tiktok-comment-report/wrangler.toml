@@ -1,0 +1,12 @@
+name = "ig-tiktok-comment-report"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# Secrets (set with `wrangler secret put <NAME>`, never put real values here):
+#   SHARED_SECRET            - a password only your Shortcut knows
+#   APIFY_TOKEN               - from Apify Console -> Settings -> Integrations
+#   ANTHROPIC_API_KEY         - from console.anthropic.com
+#   APIFY_INSTAGRAM_ACTOR     - e.g. "supreme_coder~instagram-comments-scraper"
+#   APIFY_TIKTOK_ACTOR        - e.g. "clockworks~tiktok-comments-scraper"
+#   APIFY_INSTAGRAM_INPUT     - JSON template, see README
+#   APIFY_TIKTOK_INPUT        - JSON template, see README
